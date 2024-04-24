@@ -5,7 +5,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background: linear-gradient(to bottom, #000000, #000000); /* Gradient from blue to black */
+    background: linear-gradient(to bottom, #000000, #000000);
 }
 .column {
     display: flex;
@@ -17,7 +17,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-bottom: 20px; /* Adjusted from 20% to 20px */
+    margin-bottom: 20px; 
     object-fit: cover;
 }
 .header {
@@ -53,8 +53,12 @@ body {
     color: #007bff;
     text-decoration: none;
     transition: all 0.3s ease;
+    margin-right: center;
 }
 .link:hover {
     background: #007bff;
     color: #ffff;
+}
+.link i {
+    margin-right: 5px; 
 }
